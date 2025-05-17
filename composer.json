@@ -1,0 +1,26 @@
+{
+    "name": "jazer/notification",
+    "description": "Jazer package to handle notification API request",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jazer\\Notification\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers": [
+                "Jazer\\Notification\\Http\\Provider\\NotificationServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Jazer Tech Solution"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {}
+}

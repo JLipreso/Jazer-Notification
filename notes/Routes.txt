@@ -1,0 +1,6 @@
+Installation:
+
+composer require jazer/notification:dev-main
+php artisan vendor:publish --tag=notificationconfig-config
+
+notification/XXX
