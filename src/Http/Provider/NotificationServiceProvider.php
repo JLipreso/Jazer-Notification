@@ -16,8 +16,8 @@ class NotificationServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__ . '/../../../config/config.php' => config_path('notificationconfig.php')
-        ], 'notificationconfig-config');
+            __DIR__ . '/../../../config/config.php' => config_path('jazernotificationconfig.php')
+        ], 'jazernotificationconfig-config');
         
         $this->loadRoutesFrom( __DIR__ . '/../../../routes/api.php');
 
